@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Website</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+	</head>
+
+	<body>
+		
+		<div class="popup" onclick="myFunction()"><img src = "buttons 1.png">
+			<span class="popupPic" id="myPopup">
+				<img src = "sq1.png">
+				<audio id="myAudio">
+  				<!-- <source src=".ogg" type="audio/ogg"> -->
+  				<source src="audio.mp3" type="audio/mpeg">
+				</audio>
+			</span>
+		</div>
+		<div class="popup" onclick="myFunction()"><img src = "buttons 2.png">
+			<span class="popupPic" id="myPopup">
+				<img src = "sq5.png">
+				<audio id="myAudio">
+  				<!-- <source src=".ogg" type="audio/ogg"> -->
+  				<source src="audio.mp3" type="audio/mpeg">
+				</audio>
+			</span>
+		</div>
+		<div class="popup" onclick="myFunction()"><img src = "buttons 3.png">
+			<span class="popupPic" id="myPopup">
+				<img src = "sq3.png">
+				<audio id="myAudio">
+  				<!-- <source src=".ogg" type="audio/ogg"> -->
+  				<source src="audio.mp3" type="audio/mpeg">
+				</audio>
+			</span>
+		</div>
+		<div class="popup" onclick="myFunction()"><img src = "buttons 4.png">
+			<span class="popupPic" id="myPopup">
+				<img src = "sq2.png">
+				<audio id="myAudio">
+  				<!-- <source src=".ogg" type="audio/ogg"> -->
+  				<source src="audio.mp3" type="audio/mpeg">
+				</audio>
+			</span>
+		</div>
+		<div class="popup" onclick="myFunction()"><img src = "buttons 5.png">
+			<span class="popupPic" id="myPopup">
+				<img src = "sq6.png">
+				<audio id="myAudio">
+  				<!-- <source src=".ogg" type="audio/ogg"> -->
+  				<source src="audio.mp3" type="audio/mpeg">
+				</audio>
+			</span>
+		</div>
+		<div class="popup" onclick="myFunction()"><img src = "buttons 6.png">
+			<span class="popupPic" id="myPopup">
+				<img src = "sq4.png">
+				<audio id="myAudio">
+  				<!-- <source src=".ogg" type="audio/ogg"> -->
+  				<source src="audio.mp3" type="audio/mpeg">
+				</audio>
+			</span>
+		</div>
+		
+		<script>
+			var x = document.getElementById("myAudio")
+			var popup = document.getElementById("myPopup");	
+
+			function myFunction() {
+		    popup.classList.toggle("show");
+		    x.play()
+			}
+		</script>
+	</body>
+
+</html>
